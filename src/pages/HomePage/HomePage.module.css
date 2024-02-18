@@ -1,0 +1,27 @@
+.text {
+  text-align: center;
+}
+
+.card {
+  width: 2000px;
+
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:active {
+  box-shadow: none;
+}
+
+.contactshero {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,27 @@
+.formButtonHeader {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.formButtonHeader:hover {
+  background-color: #150c1b;
+}
+
+.formButtonHeader:active {
+  background-color: #f0f0f08b;
+  transform: translateY(1px);
+}
+
+.navigateMenu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.isntLogin {
+  justify-content: space-between;
+}
